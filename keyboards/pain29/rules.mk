@@ -1,0 +1,16 @@
+# MCU name
+MCU = atmega32u4
+BOOTLOADER = caterina
+
+MOUSEKEY_ENABLE      = yes
+EXTRAKEY_ENABLE      = yes
+CONSOLE_ENABLE       = yes
+NKRO_ENABLE 	     = yes
+AUTO_SHIFT_ENABLE    = yes
+DYNAMIC_MACRO_ENABLE = yes
+
+COMMAND_ENABLE   = no
+SLEEP_LED_ENABLE = no
+BACKLIGHT_ENABLE = no
+AUDIO_ENABLE 	 = no
+RGBLIGHT_ENABLE	 = no
